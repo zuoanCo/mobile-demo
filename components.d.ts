@@ -8,5 +8,12 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    VanActionBar: typeof import('vant/es')['ActionBar']
+    VanActionBarButton: typeof import('vant/es')['ActionBarButton']
+    VanActionBarIcon: typeof import('vant/es')['ActionBarIcon']
+    VanCell: typeof import('vant/es')['Cell']
+    VanCircle: typeof import('vant/es')['Circle']
+    VanPopup: typeof import('vant/es')['Popup']
+    VanSkeleton: typeof import('vant/es')['Skeleton']
   }
 }
